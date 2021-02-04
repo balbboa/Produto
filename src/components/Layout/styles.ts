@@ -2,7 +2,7 @@ import styled from "styled-components";
 import background from "../../assets/tropical.jpg"
 
 export const Container = styled.div`
-margin-top: -80px;
+margin: -80px 0 -80px 0;
 position: relative;
 z-index: -1;
 background-position: center;

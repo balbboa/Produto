@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  width: 100%;
-  height: 48px;
   background: var(--color-footer);
   border-top: 1px solid var(--color-border);
-
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 14px;
 
-  margin-top: 30px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
 `;
